@@ -4,7 +4,7 @@
 //  Created by Andrea Miotto on 15/09/21.
 //  Copyright © 2021 Swift. All rights reserved.
 //
-
+#if canImport(UIKit)
 import Foundation
 import SwiftUI
 
@@ -42,3 +42,4 @@ struct PSManagerWrapper<Parent: View, SheetContent: View>: View {
     }
     
 }
+#endif

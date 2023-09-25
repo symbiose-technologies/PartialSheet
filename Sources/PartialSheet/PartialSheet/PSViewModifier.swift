@@ -5,7 +5,7 @@
 //  Created by Miotto Andrea on 09/11/2019.
 //  Copyright © 2019 Miotto Andrea. All rights reserved.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 import Combine
 
@@ -269,3 +269,4 @@ extension PartialSheet {
         }
     }
 }
+#endif

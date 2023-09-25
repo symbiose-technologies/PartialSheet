@@ -5,7 +5,7 @@
 //  Created by Andrea Miotto on 18/4/20.
 //  Copyright © 2020 Swift. All rights reserved.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 
 internal enum DeviceType {
@@ -68,3 +68,4 @@ extension View {
     }
 }
 
+#endif

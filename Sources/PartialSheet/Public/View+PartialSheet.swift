@@ -5,7 +5,7 @@
 //  Created by Miotto Andrea on 10/11/2019.
 //  Copyright © 2019 Miotto Andrea. All rights reserved.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 
 public extension View {
@@ -62,3 +62,4 @@ public extension View {
         )
     }
 }
+#endif

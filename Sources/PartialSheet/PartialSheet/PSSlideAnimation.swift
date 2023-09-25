@@ -4,7 +4,7 @@
 //
 //  Created by Andrea Miotto on 28/02/22.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 
 public struct PSSlideAnimation {
@@ -21,3 +21,4 @@ public struct PSSlideAnimation {
         self.slideOut = slideOut ?? defaultSlideAnimation
     }
 }
+#endif

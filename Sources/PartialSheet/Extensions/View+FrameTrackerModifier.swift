@@ -4,7 +4,7 @@
 //
 //  Created by Andrea Miotto on 28/02/22.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 
 /**
@@ -76,3 +76,4 @@ extension View {
         self.modifier(OnFrameDidChange(onChange: onChange))
     }
 }
+#endif

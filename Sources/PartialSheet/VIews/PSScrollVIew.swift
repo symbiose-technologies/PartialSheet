@@ -4,7 +4,7 @@
 //
 //  Created by Andrea Miotto on 28/02/22.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 
 private struct ScrollOffsetPreferenceKey: PreferenceKey {
@@ -45,3 +45,4 @@ struct PSScrollVIew<Content: View>: View {
     }
 }
 
+#endif

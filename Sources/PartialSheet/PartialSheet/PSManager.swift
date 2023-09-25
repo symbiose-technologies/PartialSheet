@@ -5,7 +5,7 @@
 //  Created by Andrea Miotto on 29/4/20.
 //  Copyright © 2020 Swift. All rights reserved.
 //
-
+#if canImport(UIKit)
 import Combine
 import SwiftUI
 /**
@@ -76,3 +76,4 @@ class PSManager: ObservableObject {
         }
     }
 }
+#endif

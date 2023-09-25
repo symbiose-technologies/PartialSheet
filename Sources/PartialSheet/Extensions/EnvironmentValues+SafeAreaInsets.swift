@@ -4,7 +4,7 @@
 //  Created by Andrea Miotto on 15/09/21.
 //  Copyright © 2021 Swift. All rights reserved.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 
 extension EnvironmentValues {
@@ -33,3 +33,4 @@ private extension UIEdgeInsets {
         EdgeInsets(top: top, leading: left, bottom: bottom, trailing: right)
     }
 }
+#endif
